@@ -1,29 +1,44 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Container } from "react-dom";
+import React from "react";
+import background from "./photo.jpg";
+import Container from "react-dom";
+import Container from "@material-ui/core/Container";
 
 function App() {
+  // return (
+
   return (
-    <div className="App">
-      {/* <Container fixed> */}
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          hi! my name is ummm <code>sarah.hassan</code> and welcome to my
-          portfolio!
-        </p>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/sarah-hassan1/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          connect with me on LinkedIn
-        </a>
-      </header>
-      {/* </Container> */}
-    </div>
+    <Container maxWidth="sm">
+      <Typography
+        component="div"
+        style={{
+          backgroundColor: "Orange",
+          height: "100vh",
+        }}
+      >
+        will this work? who knows
+      </Typography>
+    </Container>
+
+    // <Container>
+    //   <div>
+    //     object fit
+    //     <img src={background} width="500" height="600" alt="" />
+    //   </div>
+    // </Container>
   );
 }
+
+//     <div
+//       style={{
+//         width: "500%",
+//         height: "600%",
+//         backgroundImage: `url(${background})`,
+//       }}
+//     >
+//       Hello World
+//     </div>
+//   );
+// }
 
 export default App;
