@@ -4,9 +4,32 @@
 body {
   background-image: url("./photo.jpg");
   background-size: 100%;
-  height: 100px;
-  padding: 10vh 0 10vw 0;
+  /* height: 100px; */
+  /* padding: 10vh 0 10vw 0; */
 }
+
+.profilepic {
+  padding-right: 300px;
+  width: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* .mb-14 {
+  margin-bottom: 16rem !important;
+}
+
+.pb-10 {
+  padding-bottom: (spacer * 6) !important;
+}
+
+.pe-10 {
+  padding-right: (spacer * 7) !important;
+} */
+
 /* .background {
   background-image: url("./photo.jpg");
   padding: 50px 0 50px 0;
