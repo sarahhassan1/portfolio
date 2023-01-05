@@ -23,7 +23,7 @@ code {
 }
 
 .blackoverlay {
-  background: rgba(9, 76, 105, 0.604);
+  background: rgba(40, 159, 210, 0.504);
 }
 
 .space {
@@ -33,3 +33,5 @@ code {
 .text-nowrap {
   white-space: nowrap;
 }
+
+/* 9, 76, 105, 0.604) */

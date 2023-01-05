@@ -2,10 +2,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import React from "react";
 import profilepic from "./pp.jpg";
-import { Col, Row } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import { rgbToHex } from "@mui/material";
-import { yellow } from "@mui/material/colors";
+// import { rgbToHex } from "@mui/material";
+// import { yellow } from "@mui/material/colors";
 
 function App() {
   return (
@@ -21,58 +21,45 @@ function App() {
       >
         <Col md={{ offset: 1 }}>
           {" "}
-          {/* <div className="blackoverlay"> */}
-          <p class="font-weight-bold">
-            {" "}
-            <h1
-              className="blackoverlay"
-              style={{ fontSize: "5.5rem", color: "yellow" }}
-            >
-              Frontend <div></div>
-            </h1>{" "}
-          </p>
-          <div class="text-nowrap">
-            {" "}
+          {/* <Card> */}
+          <div className="blackoverlay">
             <p class="font-weight-bold">
               {" "}
               <h1
-                className="blackoverlay"
-                style={{ fontSize: "5.5rem", color: "white" }}
+                // className="blackoverlay"
+                style={{ fontSize: "5.5rem", color: "yellow" }}
               >
-                {" "}
-                Developer
+                Frontend <div></div>
               </h1>{" "}
             </p>
+            <div class="text-nowrap">
+              {" "}
+              <p class="font-weight-bold">
+                {" "}
+                <h1
+                  class="text-nowrap"
+                  // className="blackoverlay"
+                  style={{ fontSize: "5.5rem", color: "white" }}
+                >
+                  {" "}
+                  Developer
+                </h1>{" "}
+              </p>
+            </div>
           </div>
+          {/* </Card> */}
           <div class="space"> </div>
           <h3
-            class="text-nowrap"
             className="blackoverlay"
             style={{ fontSize: "25px", color: "white" }}
           >
             {" "}
             I enjoy developing{" "}
-            <div style={{ color: "yellow" }}>high-quality</div>front-end
-            products with <div style={{ color: "yellow" }}>excellent</div> user
-            experiences.
+            <span style={{ color: "yellow" }}>high-quality </span> front-end
+            products with <span style={{ color: "yellow" }}>excellent</span>{" "}
+            user experiences.
           </h3>
-          <p class="text-nowrap" className="blackoverlay">
-            <h3 style={{ fontSize: "25px", color: "white" }}>
-              {" "}
-              I enjoy developing
-            </h3>{" "}
-            <p style={{ fontSize: "25px", color: "yellow" }}> high-quality </p>
-            <h3 style={{ fontSize: "25px", color: "white" }}>
-              {" "}
-              front-end products with
-            </h3>
-            <h3 style={{ fontSize: "25px", color: "yellow" }}> excellent </h3>
-            <h3 style={{ fontSize: "25px", color: "white" }}>
-              {" "}
-              user experiences.
-            </h3>{" "}
-          </p>
-          {/* </div>{" "} */}
+          <span class="text-nowrap" className="blackoverlay"></span>
         </Col>
         <Col md={{ offset: 1 }}>
           <img
