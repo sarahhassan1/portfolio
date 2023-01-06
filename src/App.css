@@ -5,9 +5,6 @@ body {
   background-image: url("./photo.jpg");
   background-size: 100%;
   font-family: Futura;
-  /* opacity: 0.99; */
-  /* height: 100px; */
-  /* padding: 10vh 0 10vw 0; */
 }
 
 .profilepic {
@@ -33,5 +30,3 @@ code {
 .text-nowrap {
   white-space: nowrap;
 }
-
-/* 9, 76, 105, 0.604) */

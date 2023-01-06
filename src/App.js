@@ -2,10 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import React from "react";
 import profilepic from "./pp.jpg";
-import { Card, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-// import { rgbToHex } from "@mui/material";
-// import { yellow } from "@mui/material/colors";
 
 function App() {
   return (
@@ -21,14 +19,10 @@ function App() {
       >
         <Col md={{ offset: 1 }}>
           {" "}
-          {/* <Card> */}
           <div className="blackoverlay">
             <p class="font-weight-bold">
               {" "}
-              <h1
-                // className="blackoverlay"
-                style={{ fontSize: "5.5rem", color: "yellow" }}
-              >
+              <h1 style={{ fontSize: "5.5rem", color: "yellow" }}>
                 Frontend <div></div>
               </h1>{" "}
             </p>
@@ -38,7 +32,6 @@ function App() {
                 {" "}
                 <h1
                   class="text-nowrap"
-                  // className="blackoverlay"
                   style={{ fontSize: "5.5rem", color: "white" }}
                 >
                   {" "}
@@ -47,7 +40,6 @@ function App() {
               </p>
             </div>
           </div>
-          {/* </Card> */}
           <div class="space"> </div>
           <h3
             className="blackoverlay"
